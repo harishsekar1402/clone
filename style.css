@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Merriweather&family=Outfit&family=Poppins:wght@200;400&family=Rampart+One&family=Roboto:wght@300&family=Tilt+Prism&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    background-color: #120F12;
+    width: auto;
+    color: white;
+    justify-content: space-between;
+}
+.nav img{
+    width: auto;
+    height: 60px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.list{
+    padding: 20px;
+}
+.list ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.nav{
+    padding-top: 20px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.btns{
+    margin-top: 10px;
+    height: 50px;
+    width: auto;
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 40px;
+    color: white;
+    border: 1px solid #ffffff;
+    background-color: #120F12;
+
+}
+select{
+    background-color: #120F12;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+section{
+    min-height: 100vh;
+    width: auto;
+}
+#Home{
+    background-color: #120F12;
+    
+}
+.hom-img img{
+    padding-left: 10px;
+    height: 200px;
+    width: auto;
+}
+.hom{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 5%;
+}
+.txt{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+
+}
+.txt p{
+    font-size: 14px;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    padding-top: 5%;
+}
+.image img{
+    height: 450px;
+    width: auto;
+}
+.click{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.circle{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+.c1 img{
+    height: 40px;
+    width: auto;
+}
+.c1,.c2,.c3{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(5, 5, 5);
+    background-color: rgb(130, 129, 129);
+}
+.c1:hover{
+    border: 2px solid white;
+}
+.c2:hover{
+    border: 2px solid white;
+}
+.c3:hover{
+    border: 2px solid white;
+}
+.c3 img{
+    height: 40px;
+    width: auto;
+}
+.c2 img{
+    height: 40px;
+    width: auto;
+}
+
+.c2{
+    margin-left: -15px;
+    background-color: antiquewhite;
+}
+.c3{
+    margin-left: -15px;
+    background-color: rgb(206, 182, 207);
+}
