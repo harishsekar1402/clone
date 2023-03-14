@@ -65,10 +65,10 @@ section{
     background-color: #120F12;
     
 }
-.hom-img img{
+.hom-img {
+    font-size: 30px;
+    color: white;
     padding-left: 10px;
-    height: 200px;
-    width: auto;
 }
 .hom{
     display: flex;
@@ -116,7 +116,7 @@ section{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: 2px solid rgb(5, 5, 5);
+    border: 2px solid #120f12;
     background-color: rgb(130, 129, 129);
 }
 .c1:hover{
@@ -144,4 +144,174 @@ section{
 .c3{
     margin-left: -15px;
     background-color: rgb(206, 182, 207);
+}
+#urb{
+    background-color:rgb(241, 241, 112);
+    color: #120F12;
+}
+#lof img{
+    height: 40px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+}
+.car1{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    background-color: #cde9a0;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.car2{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    background-color: #f7efb1;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.car3{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    background-color: #e8c2eb;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.cards p{
+    font-size: 13px;
+}
+#num{
+    margin-top: 10px;
+}
+#num h3{
+    border: 2px solid rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color:#2c292c;
+}
+footer{
+    height: 100px;
+}
+#foot{
+    background-color: #ffffff;
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: space-between;
+}
+.farm{
+    margin-top: 2%;
+    margin-left: 4%;
+    padding: 1%;
+    padding-top: 8%;
+    padding-left: 4%;
+    border-radius: 50px;
+    color: white;
+    height: 40px;
+    background-color: #120F12;
+    width: 200px;
+}
+#tim{
+    border-radius: 30px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
+.l-btn{
+    height: 50px;
+    border: 1px solid black;
+    width: 50px;
+    margin-top: 4%;
+    border-radius: 50%;
+    padding-top:4px;
+    padding-left: 10px;
+    padding-right: 0px;
+    background-color: #979797;
+}
+.l-btn img{
+    height: 40px;
+    width: 40px;
+}
+.f-btns{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.f-para{
+    margin-top: 20px;
+}
+.ci1{
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+    color: white;
+    padding: 1%;
+    padding-top: 5%;
+    padding-left: 2%;
+    border-radius: 30px;
+    color: black;
+    background-color: #caeb91;
+}
+.ci2{
+    border: 1px solid black;
+    margin-left: -50px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    padding: 1%;
+    padding-top: 5%;
+    padding-left: 2%;
+    border-radius: 30px;
+    color: black;
+    background-color: #acf5ab;
+}
+.ci3{
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: -50px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    padding: 1%;
+    padding-top: 5%;
+    padding-left: 2%;
+    border-radius: 30px;
+    color: #120F12;
+    background-color: #e1cce1;
+}
+.conta{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    gap: 20px;
 }
