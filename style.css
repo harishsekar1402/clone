@@ -63,6 +63,7 @@ section{
 }
 #Home{
     background-color: #120F12;
+    padding-bottom: 2%;
     
 }
 .hom-img {
@@ -228,6 +229,7 @@ footer{
     margin-left: 2%;
     margin-right: 2%;
     justify-content: space-between;
+    align-items: center;
 }
 .farm{
     margin-top: 2%;
@@ -266,17 +268,15 @@ footer{
 .f-btns{
     display: flex;
     flex-direction: row;
-    margin-top: 15px;
 }
-.f-para{
-    margin-top: 20px;
-}
+
 .ci1{
     border: 1px solid black;
     height: 40px;
     width: 150px;
     color: white;
     padding: 1%;
+    text-align: left;
     padding-top: 5%;
     padding-left: 2%;
     border-radius: 30px;
@@ -311,7 +311,9 @@ footer{
 }
 .conta{
     display: flex;
-    margin-top: 15px;
     flex-direction: row;
     gap: 20px;
+}
+#foot .circle{
+    margin-top: 0;
 }
